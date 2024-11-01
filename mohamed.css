@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(green, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#inputDiv {
+    text-align: center;
+
+}
+
+#inputDiv h1 {
+    color: white;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 3px 5px 5px #3e8df5;
+}
+
+#inputDiv input {
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#inputDiv button {
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgba(87, 184, 223, 0.678);
+    transition: 0.5s;
+}
+
+#inputDiv button:hover {
+    cursor: pointer;
+    background-color: rgba(156, 150, 241, 0.842); 
+    color: white
+}
+
+#inputDiv button:active {
+    background-color: rgb(24, 170, 73);
+}
+
+#resultDiv #adsDiv {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(36, 33, 71, 0.384);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#resultDiv #canvasDiv {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: none;
+    margin-top: 20px;
+}
